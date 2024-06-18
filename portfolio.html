@@ -1,0 +1,1159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing Script&display=swap');
+
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    min-height: 300px;
+}
+
+section {
+    background-color: #F8F8F9;
+    border: #f16e16 solid 1px;
+}
+
+.o {
+  font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 23px;
+  margin-top: 0px;
+  color: #050505;
+}
+
+.center{
+  margin-left: 300px;
+  font-size: 50px;
+  position: relative;
+  left: 80px;
+  
+}
+
+.skill p{
+  display: block;
+  font-size: 15px;
+  display: flex;
+  flex: 50%;
+  background-color: #000000;
+  color: #ddddfd;
+  margin-right: 120px;
+}
+
+.skill2{
+  display: block;
+  flex: 50%;
+  margin-top: 125px;
+  margin-left: 140px;
+}
+
+.skill2 P{
+  font-size: 15px;
+  background-color: #000000;
+  color: #ddddfd;
+  margin-right: 200px;
+}
+
+.line{
+  height: 2px;
+  width: 360px;
+  background-color: #000000;
+  left: 550px;
+  transform: rotate(90deg);
+  position: relative;
+  top: 270px;
+  
+}
+
+.newdiv{
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.hero {
+    background-image: linear-gradient(rgba(1, 12, 26, 0.527),rgba(0, 0, 0, 0.5)) , url('https://cdn.wallpapersafari.com/17/36/a9uwyD.jpg');
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    font-size: 40px;
+}
+
+footer {
+    background-color: #d35f00;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav-list a:hover{
+  color: #c9570c;
+}
+
+.me {
+    font-family: Dancing script;
+    font-weight: 600;
+    font-size: 70px;
+    color: #000000;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+li {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: Dancing Script;
+    font-size: 90px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 70px;
+    font-family: Dancing script;
+    font-weight: 500px;
+    color: #f7770f;
+}
+
+p {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.subtext {
+    font-size: 15px;
+    font-weight: 300;
+    padding: 5px;
+}
+
+.hero-area {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    margin-left: 80px;
+    margin-bottom: 200px;
+}
+
+.button {
+    font-family: 'Poppins', sans-serif;
+    width: 200px;
+    height: 55px;
+    border-radius: 30px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+.button:hover {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e74e1f;
+}
+
+.button:active {
+    font-family: 'Poppins', sans-serif;
+    background-color: #A9A9A9;
+    color: #808080;
+}
+
+.socials {
+    padding-bottom: 200px;
+}
+
+.logo {
+    height: 70px;
+    margin: 30px;
+}
+.social {
+    margin: 20px;
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+    background-image: linear-gradient(orange,white);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+
+.sub-section-alternative {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+
+.headshot {
+    width: 300px;
+    border-radius: 150px;
+    margin-left: 80px;
+}
+
+.headshot-container {
+    display: flex;
+    align-items: center;
+}
+
+.project-card {
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 20px rgb(37, 37, 37);
+    background-color: #c9570c;
+    border-radius: 15px;
+    color: #eeeeee;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.project-card:hover{
+  -webkit-transform: scale(1.2);
+	transform: scale(1.1);
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 1000px) {
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.project-image {
+    margin-top: 25px;
+    width: 250px;
+    border-radius: 125px;
+}
+
+::selection {
+  color: rgb(255, 255, 255);
+  background: rgb(207, 100, 0);
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.burger {
+    display: none;
+}
+
+.burger:focus {
+    outline: 0;
+}
+
+#social {
+  display: flex;
+  align-items: center;
+  /* margin-left: 10px; */
+}
+
+.a {
+  font-size: 40px;
+  color: #eeeeee;
+}
+
+.s{
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.pizza{
+  background-color:#0d4b50;
+}
+
+.l{
+  margin-right: -890px;
+  padding: 0;
+}
+
+.q {
+  color: #eeeeee;
+  font-size: 15px;
+  text-align:left;
+  margin: -1px;
+  background-color:#000000;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .burger {
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+        margin: 20px;
+        align-self: flex-end;
+    }
+
+    ul {
+        display: none;
+        background-color: #0A1828;
+        margin: 0ppx;
+    }
+
+    ul.show {
+        display: block;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #0A1828;
+        opacity: 0.90;
+    }
+
+    .logo {
+        display: none;
+    }
+}
+
+.contact_us_2 * {
+    font-family: Nunito, sans-serif;
+  }
+  
+  .contact_us_2 .text-blk {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    line-height: 25px;
+  }
+  
+  .contact_us_2 .responsive-cell-block {
+    min-height: 75px;
+  }
+  
+  .contact_us_2 input:focus {
+    outline-color: initial;
+    outline-style: none;
+    outline-width: initial;
+  }
+  
+  .contact_us_2 .container-block {
+    min-height: 75px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+  }
+  
+  .contact_us_2 .submit-btn:hover {
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color:#ddddfd;
+    color: #0A1828;
+  }
+  
+  .contact_us_2 .responsive-container-block {
+    min-height: 75px;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-left: auto;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+  }
+  
+  .contact_us_2 .responsive-container-block.big-container {
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    position: relative;
+    height: auto;
+  }
+  
+  .contact_us_2 .responsive-container-block.container {
+    position: static;
+    min-height: 75px;
+    flex-direction: column;
+    z-index: 2;
+    max-width: 800px;
+    margin-top: 120px;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-left: auto;
+  }
+  
+  .contact_us_2 .container-block.form-wrapper {
+    background-color: #000000;
+    max-width: 799px;
+    text-align: center;
+    padding-top: 50px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 20px 7px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+  }
+  
+  .contact_us_2 .text-blk.contactus-head {
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: 900;
+  }
+  
+  .contact_us_2 .text-blk.contactus-subhead {
+    color: #9c9c9c;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 50px;
+    margin-left: 0px;
+  }
+  
+  .contact_us_2 .responsive-cell-block.wk-desk-6.wk-ipadp-6.wk-tab-12.wk-mobile-12 {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 26px;
+    margin-left: 0px;
+    min-height: 50px;
+  }
+  
+  .contact_us_2 .input {
+    width: 96%;
+    height: 50px;
+    padding-top: 1px;
+    padding-right: 15px;
+    padding-bottom: 1px;
+    padding-left: 15px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: #eeeeee;
+    border-right-color: #eeeeee;
+    border-bottom-color: #eeeeee;
+    border-left-color: #eeeeee;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    font-size: 16px;
+    color: black;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
+  
+  .contact_us_2 .textinput {
+    width: 98%;
+    min-height: 150px;
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: #eeeeee;
+    border-right-color: #eeeeee;
+    border-bottom-color: #eeeeee;
+    border-left-color: #eeeeee;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    font-size: 16px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
+  
+  .contact_us_2 .submit-btn {
+    width: 98%;
+    background-color:#F8F8F9;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 700;
+    color:#0A1828;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-style: outset;
+    border-right-style: outset;
+    border-bottom-style: outset;
+    border-left-style: outset;
+    border-top-color: #767676;
+    border-right-color: #767676;
+    border-bottom-color: #767676;
+    border-left-color: #767676;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .contact_us_2 .form-box {
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+  }
+  
+  .contact_us_2 .social-media-links {
+    width: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+  }
+  
+  .contact_us_2 .link-img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .contact_us_2 .text-blk.input-title {
+    text-align: left;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    font-size: 14px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    color: #F8F8F9;
+  }
+  
+  .contact_us_2 ::placeholder {
+    color: #0A1828;
+  }
+  
+  .contact_us_2 .blueBG {
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    height: 300px;
+    background-color:#F8F8F9;
+  }
+  
+  @media (max-width: 768px) {
+    .contact_us_2 .submit-btn {
+      width: 100%;
+    }
+  
+    .contact_us_2 .input {
+      width: 100%;
+    }
+  
+    .contact_us_2 .textinput {
+      width: 100%;
+    }
+  
+    .contact_us_2 .container-block.form-wrapper {
+      margin-top: 80px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+    }
+  
+    .contact_us_2 .text-blk.input-title {
+      padding-top: 0px;
+      padding-right: 0px;
+      padding-bottom: 0px;
+      padding-left: 0px;
+    }
+  
+    .contact_us_2 .responsive-container-block.container {
+      margin-top: 80px;
+      margin-right: 0px;
+      margin-bottom: 50px;
+      margin-left: 0px;
+    }
+  
+    .contact_us_2 .container-block.form-wrapper {
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+    }
+  
+    .contact_us_2 .text-blk.contactus-head {
+      font-size: 30px;
+      line-height: 40px;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .contact_us_2 .container-block.form-wrapper {
+      padding-top: 50px;
+      padding-right: 15px;
+      padding-bottom: 50px;
+      padding-left: 15px;
+    }
+  
+    .contact_us_2 .container-block.form-wrapper {
+      margin-top: 60px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+    }
+  
+    .contact_us_2 .responsive-cell-block.wk-ipadp-6.wk-tab-12.wk-mobile-12.wk-desk-6 {
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 15px;
+      margin-left: 0px;
+    }
+  
+    .contact_us_2 .responsive-container-block {
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 35px;
+      margin-left: 0px;
+    }
+  
+    .contact_us_2 .text-blk.input-title {
+      font-size: 12px;
+    }
+  
+    .contact_us_2 .responsive-container-block.container {
+      margin-top: 50px;
+      margin-right: 0px;
+      margin-bottom: 50px;
+      margin-left: 0px;
+    }
+  
+    .contact_us_2 .container-block.form-wrapper {
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+    }
+  
+    .contact_us_2 .responsive-container-block.big-container {
+      padding-top: 10px;
+      padding-right: 20px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+    }
+  
+    .contact_us_2 .text-blk.contactus-head {
+      font-size: 26px;
+      line-height: 34px;
+    }
+  
+    .contact_us_2 .input {
+      height: 45px;
+    }
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&amp;display=swap');
+  
+  *,
+  *:before,
+  *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  .wk-desk-1 {
+    width: 8.333333%;
+  }
+  
+  .wk-desk-2 {
+    width: 16.666667%;
+  }
+  
+  .wk-desk-3 {
+    width: 25%;
+  }
+  
+  .wk-desk-4 {
+    width: 33.333333%;
+  }
+  
+  .wk-desk-5 {
+    width: 41.666667%;
+  }
+  
+  .wk-desk-6 {
+    width: 50%;
+  }
+  
+  .wk-desk-7 {
+    width: 58.333333%;
+  }
+  
+  .wk-desk-8 {
+    width: 66.666667%;
+  }
+  
+  .wk-desk-9 {
+    width: 75%;
+  }
+  
+  .wk-desk-10 {
+    width: 83.333333%;
+  }
+  
+  .wk-desk-11 {
+    width: 91.666667%;
+  }
+  
+  .wk-desk-12 {
+    width: 100%;
+  }
+  
+  @media (max-width: 1024px) {
+    .wk-ipadp-1 {
+      width: 8.333333%;
+    }
+  
+    .wk-ipadp-2 {
+      width: 16.666667%;
+    }
+  
+    .wk-ipadp-3 {
+      width: 25%;
+    }
+  
+    .wk-ipadp-4 {
+      width: 33.333333%;
+    }
+  
+    .wk-ipadp-5 {
+      width: 41.666667%;
+    }
+  
+    .wk-ipadp-6 {
+      width: 50%;
+    }
+  
+    .wk-ipadp-7 {
+      width: 58.333333%;
+    }
+  
+    .wk-ipadp-8 {
+      width: 66.666667%;
+    }
+  
+    .wk-ipadp-9 {
+      width: 75%;
+    }
+  
+    .wk-ipadp-10 {
+      width: 83.333333%;
+    }
+  
+    .wk-ipadp-11 {
+      width: 91.666667%;
+    }
+  
+    .wk-ipadp-12 {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .wk-tab-1 {
+      width: 8.333333%;
+    }
+  
+    .wk-tab-2 {
+      width: 16.666667%;
+    }
+  
+    .wk-tab-3 {
+      width: 25%;
+    }
+  
+    .wk-tab-4 {
+      width: 33.333333%;
+    }
+  
+    .wk-tab-5 {
+      width: 41.666667%;
+    }
+  
+    .wk-tab-6 {
+      width: 50%;
+    }
+  
+    .wk-tab-7 {
+      width: 58.333333%;
+    }
+  
+    .wk-tab-8 {
+      width: 66.666667%;
+    }
+  
+    .wk-tab-9 {
+      width: 75%;
+    }
+  
+    .wk-tab-10 {
+      width: 83.333333%;
+    }
+  
+    .wk-tab-11 {
+      width: 91.666667%;
+    }
+  
+    .wk-tab-12 {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .wk-mobile-1 {
+      width: 8.333333%;
+    }
+  
+    .wk-mobile-2 {
+      width: 16.666667%;
+    }
+  
+    .wk-mobile-3 {
+      width: 25%;
+    }
+  
+    .wk-mobile-4 {
+      width: 33.333333%;
+    }
+  
+    .wk-mobile-5 {
+      width: 41.666667%;
+    }
+  
+    .wk-mobile-6 {
+      width: 50%;
+    }
+  
+    .wk-mobile-7 {
+      width: 58.333333%;
+    }
+  
+    .wk-mobile-8 {
+      width: 66.666667%;
+    }
+  
+    .wk-mobile-9 {
+      width: 75%;
+    }
+  
+    .wk-mobile-10 {
+      width: 83.333333%;
+    }
+  
+    .wk-mobile-11 {
+      width: 91.666667%;
+    }
+  
+    .wk-mobile-12 {
+      width: 100%;
+    }
+  }
+  
+  .t{
+    margin-top: -200px;
+  }
+        </style>
+    </head>
+    <body>
+        <head>
+            <script
+              src="https://kit.fontawesome.com/2f1707a375.js"
+              crossorigin="anonymous"
+            ></script>
+            <title>Portfolio</title>
+          </head>
+        <body>
+        
+          <section class="hero">
+            <nav>
+                <img class="logo" src="./images/Shanus-Boutique-big.png" alt="Shanu"/>
+                <ul id="nav-list">
+                    <li><a href="#about-me">About me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact-me">Contact</a></li>
+                </ul>
+                <button class="burger" id="burger">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+            <div class="hero-area">
+              <div class="hero-text">
+                  <h1>Mohamed Sanhar s</h1>
+                  <p>Full Stack Developer</p>
+                  <div class="button"><a href="#about-me">About me</a></div>
+              </div>
+              <div class="socials">
+                  <div><a href="" class="social">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="50" height="50" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg>
+                  </a></div>
+                  <div><a href="https://github.com/shanu810"  class="social">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="50" height="50" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                  </a></div>
+                  <div><a href="https://www.linkedin.com/in/mohamed-sanhar-s-a71a8b216/"  class="social">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="50" height="50" viewBox="0 0 24 24"><path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/></svg>
+                  </a></div>
+              </div>
+            </div>
+          </section>
+
+
+          <section class="sub-section" id="about-me">
+            <div class="information">
+                <h2 class="me">About Me</h2>
+                <p class="o">Hello!! My name is Mohamed Sanhar. I am a Software Developer. Enthusiastic and results-driven MERN
+                  stack developer with a strong
+                  background in designing and
+                  implementing web applications.
+                  Proficient in leveraging the power of
+                  MongoDB, Express.js, React, and
+                  Node.js to create scalable and
+                  responsive solutions. Adept at
+                  collaborating with cross-functional
+                  teams to analyze requirements, define
+                  technical specifications, and deliver
+                  high-quality software within
+                  established deadlines.
+                  .</p>
+            </div>
+            <div class="headshot-container">
+                <img class="headshot" src="./images/DSC01551.JPG"  alt="Shanu's headshot"/>
+            </div>
+          </section>
+          
+          <div class="newdiv">
+            <div class="line"></div>
+            <div>
+              <h2 class="center">SKILLS</h2>
+              <div class="skill">
+              <p style="width: 300px; height: 25px; padding: 3px;">HTML5</p>
+              <p style="width: 300px; height: 25px; padding: 3px;">CSS3</p>
+              <p style="width: 250px; height: 25px; padding: 3px;">JAVASCRIPT</p>
+              <p style="width: 250px; height: 25px; padding: 3px;">BOOTSTRAP</p>
+              <p style="width: 280px; height: 25px; padding: 3px;">REACTJS</p>
+              <p style="width: 270px; height: 25px; padding: 3px;">NODE</p>
+              <p style="width: 270px; height: 25px; padding: 3px;">EXPRESSJS</p></div>
+              
+            </div>
+            <div class="skill2">
+              <p style="width: 270px; height: 25px; padding: 3px;">MONGODB</p>
+              <p style="width: 270px; height: 25px; padding: 3px;">GIT</p>
+              <p style="width: 280px; height: 25px; padding: 3px;">FIGMA</p>
+              <p style="width: 250px; height: 25px; padding: 3px;">C PROGRAMMING</p>
+              <p style="width: 250px; height: 25px; padding: 3px;">MICROSOFT EXCEL</p>
+              <p style="width: 300px; height: 25px; padding: 3px;">MICROSOFT WORD</p>
+            </div>
+            
+          </div>
+
+
+
+
+          <section class="sub-section-alternative" id="projects">
+            <h2>Projects</h2>
+            <div class="project-container">
+                <div class="project-card">
+                    <img class="project-image" src="./images/Screenshot_30-5-2024_18238_localhost.jpeg" alt="Project One Image"/>
+                    <h3>Project One</h3>
+                    <p class="subtext">This is a News software that i made. With 45M+ monthly active users, we are the No. 1 news & information platform in the United States.</p>
+                    <hr/>
+                    <p class="subtext"><a class="project-link" href="">View here</a></p>
+                </div>
+                <div class="project-card">
+                  <img class="project-image" src="./images/Screenshot_30-5-2024_182528_.jpeg" alt="Project One Image"/>
+                  <h3>Project Two</h3>
+                  <p class="subtext">An app to bring experience to effectively build out your Sales Processes. And focused on driving results for you and your customers.</p>
+                  <hr/>
+                  <p class="subtext"><a class="project-link" href="">View here</a></p>
+                </div>
+                <div class="project-card">
+                  <img class="project-image" src="./images/Screenshot_30-5-2024_19201_.jpeg" alt="Project One Image"/>
+                  <h3>Project Three</h3>
+                  <p class="subtext">It is one of the most popular restaurants finder app that i made. With its' help, you can easily find restaurants and cafes near you.</p>
+                  <hr/>
+                  <p class="subtext"><a class="project-link" href="">View here</a></p>
+                </div>
+                <div class="project-card">
+                  <img class="project-image" src="https://github.com/kubowania/responsive-portfolio/blob/main/src/images/Project4.jpg?raw=true" alt="Project One Image"/>
+                  <h3>Project Four</h3>
+                  <p class="subtext">It is one of my projects in which you can track your startups revenue and find like-for-like based on your customers all in one app.</p>
+                  <hr/>
+                  <p class="subtext"><a class="project-link" href="">View here</a></p>
+                </div>
+            </div>
+          </section>
+        
+        
+          <section class="sub-section-alternative" id="contact-me">
+            <h2>
+              Get in Touch
+            </h2>
+            <div class="t">
+            <div class="contact_us_2">
+              <div class="responsive-container-block big-container">
+                </div>
+                <div class="responsive-container-block container">
+                  <form class="form-box">
+                    <div class="container-block form-wrapper">
+        
+                      <br>
+                      <br>
+                      <div class="responsive-container-block">
+                        <div class="responsive-cell-block wk-ipadp-6 wk-tab-12 wk-mobile-12 wk-desk-6" id="i10mt">
+                          <p class="text-blk input-title">
+                            FIRST NAME
+                          </p>
+                          <input class="input" id="ijowk" name="FirstName" placeholder="Please enter first name...">
+                        </div>
+                        <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+                          <p class="text-blk input-title">
+                            LAST NAME
+                          </p>
+                          <input class="input" id="indfi" name="Last Name" placeholder="Please enter last name...">
+                        </div>
+                        <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+                          <p class="text-blk input-title">
+                            EMAIL
+                          </p>
+                          <input class="input" id="ipmgh" name="Email" placeholder="Please enter email...">
+                        </div>
+                        <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+                          <p class="text-blk input-title">
+                            PHONE NUMBER
+                          </p>
+                          <input class="input" id="imgis" name="PhoneNumber" placeholder="Please enter phone number...">
+                        </div>
+                        <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-12 wk-ipadp-12" id="i634i">
+                          <p class="text-blk input-title">
+                            DETAILS OF THE WEBSITE YOU WANT ME TO MAKE
+                          </p>
+                          <textarea class="textinput" id="i5vyy" placeholder="Please enter query..."></textarea>
+                        </div>
+                      </div>
+                      <button class="submit-btn">
+                        Submit
+                      </button>
+                    </div>
+                  </form>
+                </div>
+            </div>
+          </div>
+          </section>
+        
+        <footer>
+          <h2 class="a">Full Stack Developer</h2>
+          <p class="s">You can also contact me via the following. I will be delighted to get in touch with you!!!</p>
+        
+          <ul id="social">
+            <li class="l"><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li class="l"><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li class="l"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+            <li class="l"><a href="#"><i class="fa fa-youtube"></i></a></li>
+            <li class="l"><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+         </ul>
+        </footer>
+        <section class="pizza">
+          <p class="q">copyright &copy;2024 <a href=”#”>Mohamed Sanhar</a></p>
+        </section>
+        
+         <script>
+            const burgerButton = document.getElementById('burger')
+const navList = document.getElementById('nav-list')
+
+function toggleButton() {
+    navList.classList.toggle('show')
+}
+
+burgerButton.addEventListener('click', toggleButton)
+         </script>
+    </body>
+</html>
